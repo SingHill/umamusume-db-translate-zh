@@ -1,22 +1,34 @@
+<!--
 [![Github Pages](https://github.com/FabulousCupcake/umamusume-db-translate/actions/workflows/master.yml/badge.svg)](https://github.com/FabulousCupcake/umamusume-db-translate/actions/workflows/master.yml)
+-->
 
-This project aims to create a tool in form of a static webpage to translate the game [Uma Musume Pretty Derby][1] by patching `master.mdb` file, which is easily swappable in Windows / DMM distribution of the game.
+*本储存库是[上游](https://github.com/FabulousCupcake/umamusume-db-translate)的****简体中文****翻译版本。If you need* ***English*** *version, check [upstream repo](https://github.com/FabulousCupcake/umamusume-db-translate) out!*
 
-To do this, it uses [`sql.js`][2] to manipulate `master.mdb` directly in the browser.
+本项目旨在创建一个静态网页工具，通过生成翻译后的 `master.mdb` 文件以打补丁的方式对 [ウマ娘 プリティーダービー][1] 进行客户端翻译。这种方法很适用于 Windows / DMM 版本的客户端。
 
-## Usage
-The tool can be accessed at https://fabulouscupcake.github.io/umamusume-db-translate/.
+它使用 [`sql.js`][2] 直接在 Web 浏览器中生成翻译后的 `master.mdb` 文件。
 
-## Contributing
-Please open a pull-request with the changes!
+## 使用
 
-The translation data sources can be found in csv format in [`src/data/`][3] directory.  
-All csv files in it will be merged into a single json file and used to do simple search-and-replace over the `text_data` table in `master.mdb`.
+中文版仍在制作中。
 
-## Development
-To generate the final static page, simply run `make`. Note that you need `jq` to be installed.
+The **English** version can be accessed at https://fabulouscupcake.github.io/umamusume-db-translate/.
 
-For local development/testing, simply run a webserver serving the `public` directory output with e.g. [`serve`][4]
+## 贡献
+
+如果您有兴趣帮助该项目！欢迎您随时发起 pull request。
+
+If you want to contribute the **English** translation, check [upstream repo](https://github.com/FabulousCupcake/umamusume-db-translate) out!
+
+原文以 `.csv` 格式存放在 [`src/data/`][3]。
+
+所有 `.csv` 文件都将被合并成一个 `json` 文件，并用于在 `master.mdb` 的 `text_data` 表中进行替换。
+
+## 开发
+
+生成最终的静态页面，需要使用 `Makefile`。 *注意：你需要安装 `jq`。*
+
+如果想本地调试项目，你需要使用 [`serve`][4] 在本地运行一个 Web 服务。
 
 ```sh
 $ make
