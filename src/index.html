@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="Umamusume DB Translate">
+    <meta property="og:title" content="ウマ娘数据库翻译补丁">
     <meta property="og:type" content="website">
-    <meta property="og:description" content="Translates master.mdb for in-game english translation">
-    <title>Umamusume DB Translate</title>
+    <meta property="og:description" content="通过 master.mdb 完成客户端翻译">
+    <title>ウマ娘数据库翻译补丁</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous">
     <style type="text/css">
     html, body, .container {
@@ -22,32 +22,32 @@
   <body>
     <div class="container d-flex align-items-center">
       <div class="jumbotron">
-        <h2>Umamusume DB Translate</h2>
+        <h2>ウマ娘数据库翻译补丁</h2>
         <p>
-          This tool aims to provide translation to Umamusume ingame text by patching <code>text_data</code> table in <code>master.mdb</code> file.<br/>
-          This process is done completely in the browser. To contribute or get more details, please check the <a href="https://github.com/FabulousCupcake/umamusume-db-translate">GitHub Repository</a>.
+          本项目通过修改 <code>master.mdb</code> 中的 <code>text_data</code> 表来实现 ウマ娘 プリティーダービー 的客户端翻译。<br/>
+          修改过程可完全通过该网页完成。如果你有兴趣帮助该项目，请前往 <a href="https://github.com/FabulousCupcake/umamusume-db-translate">GitHub 储存库</a>。
         </p>
-        <h3>Usage</h3>
+        <h3>使用方法</h3>
         <ol>
-          <li>Locate your <code>master.mdb</code> file after clicking the button below</li>
-          <small>By default it is located at <code>C:\Users\YourUsername\AppData\LocalLow\Cygames\umamusume\master\master.mdb</code></small>
-          <li>Replace the game <code>master.mdb</code> file with the translated <code>master.mdb</code> file</li>
+          <li>找到你的 <code>master.mdb</code> 文件</li>
+          <small>它通常存放在 <code>C:\Users\[你的用户名]\AppData\LocalLow\Cygames\umamusume\master\master.mdb</code></small>
+          <li>使用此网页已翻译的 <code>master.mdb</code> 文件替换游戏原本的 <code>master.mdb</code> 文件</li>
         </ol>
         <div class="text-center m-5">
           <input id="dbfile" type="file" hidden>
-          <label for="dbfile" class="btn btn-lg btn-primary">Choose File</label>
+          <label for="dbfile" class="btn btn-lg btn-primary">选择 master.mdb 文件</label>
         </div>
-        <h3>Notes and Caveats</h3>
+        <h3>注意事项</h3>
         <ul>
           <li>
-            This process modifies game files and is <strong>NOT</strong> allowed per game Terms of Service!<br/>
-            Use this tool at your own risk! We are not responsible for any actions taken to your account!
+            修改游戏文件<strong>违反了</strong>游戏的服务条款！<br/>
+            使用该工具的后果请自负！我们不会对你的账号负责！
           </li>
-          <li>Not all ingame text are in <code>master.mdb</code>, so this method does not fully translate the game; e.g. story text remains intact.</li>
-          <li>There are length limits so skill descriptions may get cut off or look wonky.</li>
-          <li>If the game is updated and <code>master.mdb</code> is replaced, is you will need to redo the process.</li>
-          <li>This tool is made primarily for DMM (Windows) distribution of the game, as it is way easier to replace the file.</li>
-          <small>You can still achieve in-game translation by replacing <code>master.mdb</code> in mobile devices, it's just more painful to do.</small>
+          <li>不是所有的字符串都包含在 <code>master.mdb</code> 当中，所以此方法不能完全汉化客户端。</li>
+          <li>由于有字符串长度上限，所以部分技能描述看起来会很奇怪。</li>
+          <li>如果游戏更新，你需要重新替换 <code>master.mdb</code>文件。</li>
+          <li>这个工具主要是为 DMM 版本的 PC 端而制作的，因为 PC 端替换文件的方式比较简单。</li>
+          <small>你同样可以在移动设备上通过替换 <code>master.mdb</code> 文件来完成汉化，只不过比较麻烦。</small>
         </ul>
       </div>
     </div>
