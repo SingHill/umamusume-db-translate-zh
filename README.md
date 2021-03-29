@@ -2,7 +2,7 @@
 
 *本储存库是[上游](https://github.com/FabulousCupcake/umamusume-db-translate)的****简体中文****翻译版本。If you need* ***English*** *version, check [upstream repo](https://github.com/FabulousCupcake/umamusume-db-translate) out!*
 
-本项目旨在创建一个静态网页工具，通过生成翻译后的 `master.mdb` 文件以打补丁的方式对 [ウマ娘 プリティーダービー][1] 进行客户端翻译。这种方法很适用于 Windows / DMM 版本的客户端。
+本项目旨在创建一个静态网页工具，通过生成翻译后的 `master.mdb` 文件以打补丁的方式对 [ウマ娘 プリティーダービー][1] 进行客户端翻译。这种方法很适用于 DMM 版本的 PC 客户端。
 
 它使用 [`sql.js`][2] 直接在 Web 浏览器中生成翻译后的 `master.mdb` 文件。
 
@@ -14,7 +14,7 @@ The **English** version can be accessed at https://fabulouscupcake.github.io/uma
 
 ## 贡献
 
-如果您有兴趣帮助该项目！欢迎您随时发起 pull request。
+如果你有兴趣帮助该项目！欢迎你随时发起 pull request。
 
 If you want to contribute the **English** translation, check [upstream repo](https://github.com/FabulousCupcake/umamusume-db-translate) out!
 
