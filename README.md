@@ -8,7 +8,7 @@
 
 ## 使用
 
-中文版仍在制作中。
+进入 https://horizonkinen.github.io/umamusume-db-translate-zh/ 上传你的 `master.mdb` 文件来获得翻译后的数据文件，随后根据网页上的指示进行下一步操作。
 
 The **English** version can be accessed at https://fabulouscupcake.github.io/umamusume-db-translate/.
 
