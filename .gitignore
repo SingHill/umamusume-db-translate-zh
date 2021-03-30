@@ -1,4 +1,10 @@
+
+# ignore
 public
 *.mdb
 *.db
 *.json
+
+# ignore except
+
+!backup/*.mdb
