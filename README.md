@@ -51,5 +51,5 @@ $ npx serve public
 
 [1]: https://umamusume.jp
 [2]: https://github.com/sql-js/sql.js
-[3]: https://github.com/HorizonKinen/umamusume-db-translate-zh/tree/master/src/data
+[3]: https://github.com/HorizonKinen/umamusume-db-translate-zh/tree/main/src/data
 [4]: https://www.npmjs.com/package/serve
