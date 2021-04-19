@@ -1,3 +1,5 @@
+**本项目已停止维护，最后更新于 2021 年 4 月 19 日**
+
 [![Github Pages](https://github.com/HorizonKinen/umamusume-db-translate-zh/actions/workflows/master.yml/badge.svg)](https://github.com/HorizonKinen/umamusume-db-translate-zh/actions/workflows/master.yml)
 
 *本储存库是[上游](https://github.com/FabulousCupcake/umamusume-db-translate)的****简体中文****翻译版本。If you need* ***English*** *version, check [upstream repo](https://github.com/FabulousCupcake/umamusume-db-translate) out!*
